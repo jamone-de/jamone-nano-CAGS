@@ -1,5 +1,15 @@
 # JamOne Nano: Compressibility-Aware Gradient Surgery (CAGS)
 
+![Python](https://img.shields.io/badge/python-3.9+-blue.svg)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Status](https://img.shields.io/badge/status-active_diagnostic-gold.svg)
+![Compression](https://img.shields.io/badge/Compression-ZLIB--9-blue)
+![GPU](https://img.shields.io/badge/Hardware-H100--Ready-32cd32)
+![Architecture](https://img.shields.io/badge/Model-Recursive--Transformer-ff69b4)
+![Precision](https://img.shields.io/badge/Precision-Ternary--Fixed-9cf)
+![CAGS](https://img.shields.io/badge/Optimization-CAGS--v4.5-darkviolet?style=for-the-badge&logo=target)
+
 > **Abstract:** Standard compression optimizes for sparsity; JamOne Nano optimizes for entropy-conformance. By implementing a custom gradient operator (CAGS), we actively sculpt neural weights during backpropagation to favor spatial coherence and ternary alignment. This allows a high-density, 32-pass recursive transformer (DIM 600) to converge within a strict 16MB zlib budget without sacrificing structural intelligence.
 
 Official implementation for the OpenAI 16MB Efficiency Challenge.
